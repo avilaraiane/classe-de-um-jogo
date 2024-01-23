@@ -20,6 +20,8 @@ class Heroi{
             case "ninja":
                 ataque = "shuriken"
                 break
+            default :
+                ataque = "ataque inválido"
         }
            
         console.log(`o ${this.tipo} atacou usando ${ataque}`)
